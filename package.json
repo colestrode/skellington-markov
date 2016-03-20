@@ -1,0 +1,36 @@
+{
+  "name": "skellington-markov",
+  "version": "1.0.0",
+  "description": "A Skellington plugin that will build responses based on whats said in Slack",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint index lib/ test/",
+    "test": "echo \"coming soon\"",
+    "ci": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colestrode/skellington-markov.git"
+  },
+  "keywords": [
+    "slack",
+    "botkit",
+    "skellington",
+    "markov"
+  ],
+  "author": "Cole Furfaro-Strode",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/colestrode/skellington-markov/issues"
+  },
+  "homepage": "https://github.com/colestrode/skellington-markov#readme",
+  "dependencies": {
+    "botkit-promise-storage": "^1.1.0",
+    "lodash": "^4.6.1",
+    "markov": "0.0.7",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^2.4.0"
+  }
+}
