@@ -25,7 +25,6 @@
   },
   "homepage": "https://github.com/colestrode/skellington-markov#readme",
   "dependencies": {
-    "botkit-promise-storage": "^1.1.0",
     "lodash": "^4.6.1",
     "markov": "0.0.7",
     "q": "^1.4.1"
