@@ -9,5 +9,13 @@ plugin.init = function(controller, bot) {
 
   controller.on('channel_joined', listeners.joined);
   controller.on('group_joined', listeners.joined);
-  controller.hears('what do you (think|say) about (.*)', 'direct_message,direct_mention,mention', listeners.markovRespond);
+  controller.hears('what do you (think|say) (about|of) (.*)', 'direct_message,direct_mention,mention', listeners.markovRespond);
+};
+
+plugin.help = {
+  command: 'markov',
+  text: function(botname) {
+    return 'Ask your bot to weigh in on your most burning questions with ' +
+      '`@' + botname + ' what do you (think|say) (about|of) ...`';
+  }
 };
