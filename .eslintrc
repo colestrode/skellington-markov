@@ -16,7 +16,8 @@
     "expect": true,
     "it": true,
     "inject": true,
-    "spyOn": true
+    "spyOn": true,
+    "Set": true
   },
   "parserOptions": {
     "ecmaVersion": 6
